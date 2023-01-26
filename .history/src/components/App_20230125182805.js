@@ -1,0 +1,24 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Card from './Card';
+import Hero from './Hero';
+import Navbar from './Navbar';
+import data from "./data";
+
+console.log(data);
+
+
+export default function App(){
+    const cards=data.map(item => {
+      return(
+        img={item.coverImg}
+                rating={item.stats.rating}
+                reviewCount={item.stats.}
+                location="USA"
+                title="Life Lessons with Katie Zaferes"
+                price={136}
+      )
+        
+      
+    })
+}

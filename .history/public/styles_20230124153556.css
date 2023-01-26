@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    margin: 0;
+}
+
+nav--img{
+    display: ;
+}

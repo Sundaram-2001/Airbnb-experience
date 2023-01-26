@@ -1,0 +1,32 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Card from './Card';
+import Hero from './Hero';
+import Navbar from './Navbar';
+
+
+function App(){
+    return(
+        <div >
+        <Navbar/>
+        <Card
+        img="ankur-warikoo.png"
+        rating="5"
+        reviewCount="6.0"
+        country="India"
+        desc="Woice with warikoo"
+        price="200"
+        />
+        <Card
+        img="tanvi-saroj.jpeg"
+        rating="5"
+        reviewCount="6.0"
+        country="India"
+        desc="Dare Girl"
+        price=""
+        />
+        </div>
+    )
+}
+
+export default App;
